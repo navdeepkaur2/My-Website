@@ -15,5 +15,5 @@ Blog Description:
 _My readers are normal working young people who are amid users of technology and social media.Their jobs vary from business,IT ,arts and sciences to health,Engineering and social services.They enjoy reading my blogs , sometimes for fun and sometimes getting information regarding any important(current or old) topics._
 
 
-
-
+You can access my website at:
+https://elegant-cannoli-2c3fe6.netlify.app/
