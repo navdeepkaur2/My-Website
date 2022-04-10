@@ -1,0 +1,738 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    width: 100%;
+    background-color: darkslategray;
+}
+
+.right-nav{
+  display: none;
+}
+a:hover{
+    cursor: pointer;
+  }
+nav .inner-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li{
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+}
+
+body{
+    background-color: darkslategray;
+}
+
+a{
+    padding: 20px;
+    color: black;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+h1{
+    color: black;
+    font-size: 2.4em;
+    padding-top: 20px;
+    margin-bottom: 1em;
+    padding-left: 20px;
+}
+
+h2{
+  margin-top: 0.5em;
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 2em;
+  color: black;
+}
+
+.home p{
+    background-color: rgb(78, 105, 105);
+    color: black;
+    font-size: 1.1em;
+    font-family: 'Amatic SC', cursive, serif;
+    max-width: 400px;
+    padding: 1rem;
+    box-shadow: 4px 4px 7px black;
+    margin: 0rem 0rem 2em 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info{
+    text-align: center;
+    font-size: 1.4em;
+    color: black;
+    font-weight: 200;
+}
+
+.main h3{
+    color: darkcyan;
+    border: 2px solid black;
+    box-shadow: 4px 4px 7px black;
+    padding: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.intro h3{
+    max-width: 145px;
+}
+
+.more-info h3{
+    max-width: 180px;
+}
+
+.more-info h3:nth-of-type(2){
+    max-width: 440px;
+}
+
+.sd-course h3{
+    max-width: 380px;/*490*/
+}
+
+.sd-course h3:nth-of-type(2){
+    max-width: 135px;
+}
+
+.main p{
+  background-color: rgb(78, 105, 105);
+  color: black;
+  font-size: 1.4em;
+  font-weight: 200;
+  font-family: 'Amatic SC', cursive, serif;
+  max-width: 398px;
+  padding: 1rem;
+  box-shadow: 4px 4px 7px black;
+  margin: 0rem 0rem 3em 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact-me a{
+  display: block;
+  text-align: center;
+}
+
+article {
+    margin-bottom: 1rem;
+  }
+
+article img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a img:hover {
+    box-shadow: 4px 4px 7px black;
+  }
+  
+article a:hover {
+    text-decoration: underline;
+  }
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.flex-container h3 {
+    margin-bottom: 0.5rem;
+    margin-left: 1em;
+  }
+
+  article p {
+    margin-bottom: 0.8rem;
+    font-size: 1.2em;
+    font-family: 'EB Garamond', serif;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 1em;
+  }
+
+  .first-blog article{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .first-blog h3{
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 2em;
+  }
+  
+   .first-blog img{
+     width: 100%;
+     margin-bottom: 1em;
+     margin-top: 1em;
+   }
+   
+    article h4 {
+    font-size: 1rem;
+    margin-left: 1.1em;  
+  }
+
+  .bold{
+    color: maroon;
+  }
+
+  .selector{
+    color: olive;
+  }
+
+  .declaration{
+    color: olive;
+  }
+
+  hr{
+    border: 0.1px solid black;
+  }
+
+  .selector-color{
+    color: brown;
+  font-family: 'Courier New', Courier, monospace;
+  }
+
+  .property-color{
+    color: green;
+  font-family: 'Courier New', Courier, monospace;
+  }
+
+  .value-color{
+  font-family: 'Courier New', Courier, monospace;
+    color: blue;
+  }
+
+  .whole-color{
+  font-family: 'Courier New', Courier, monospace;
+  }
+
+  .password-management{
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .password-management h3{
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+
+  .password-intro{
+    margin-bottom: 0.4em;
+    text-align: center;
+    font-size: 1.3em;
+    margin-bottom: 0.3em;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .password-management b{
+    color: maroon;
+  }
+
+  .password-management h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.4em;
+  }
+
+  .password-management p,h4,li{
+    font-family: 'EB Garamond', serif;
+    font-size: 1.2em;
+    font-family: 'EB Garamond', serif;
+    font-size: larger;
+    font-weight: bold;
+  }
+
+  .password-management ul li{
+    text-decoration: none;
+  }
+
+  .password-management img{
+    width: 100%;
+  }
+
+  .first-list{
+    margin-left: 2em;
+  }
+
+  .strong ol{
+    margin-left: 2em;
+  }
+
+  .second-list{
+    font-size: 0.9em;
+    list-style: none;
+    margin-left: 1.9em;
+  }
+
+  .strategy-guide{
+    width: 92%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .strategy-guide h3{
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+
+  .introduction p{
+    text-align: center;
+  }
+
+  .strategy-guide p {
+    margin-bottom: 0.8rem;
+    font-size: 1.2em;
+    font-family: 'EB Garamond', serif;
+    font-size: larger;
+    font-weight: bold;
+  }
+
+  .strategy-guide img{
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  table{
+    border-collapse: collapse;
+    margin-bottom: 0.8em;
+    width: 100%;
+  }
+
+  th,td{
+    border: 1.4px solid black;
+    font-family: 'EB Garamond', serif;
+    font-size: large;
+    font-weight: 700;
+    padding: 10px;
+  }
+
+  th{
+    color: maroon;
+  }
+
+  .powerup-name{
+    color: coral;
+  }
+
+  .strategy-guide li{
+    margin-left: 1.3em;
+  }
+
+  .inspector {
+    text-align: center;
+  }
+
+  .facebook{
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .facebook p{
+      margin-bottom: 0.8rem;
+      font-size: 1.2em;
+      font-family: 'EB Garamond', serif;
+      font-size: larger;
+      font-weight: bold;
+    }
+
+  .privacy-scandal{
+    margin-bottom: 0.4em;
+    width: 97%;
+    text-align: center;
+    font-size: 1.3em;
+    margin-bottom: 0.3em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .facebook h2{
+    font-family: 'EB Garamond', serif;
+  }
+
+  .facebook img{
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  
+  .facebook h3{
+      text-align: center;
+      font-family: 'EB Garamond', serif;
+      font-size: 1.7em;
+      margin-bottom: 0.5em;
+  }
+
+  .password-management-article h4{
+    margin-left: 2em;
+  }
+
+
+@media only screen and (min-width:650px){
+    
+  nav .inner-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h1{
+      padding-top: 30px;
+      margin-bottom: 1em;
+      padding-left: 20px;
+  }
+
+  .right-nav{
+    display: inline;
+  }
+
+  li a{
+    text-decoration: none;
+    padding: 0.3em;
+    color: #000;
+  }
+
+  header nav li{
+    font-size: 0.80em;
+    font-weight: 700;
+    display: inline;
+  }
+
+  .home p{
+    max-width: 600px;
+    padding: 1rem;
+    box-shadow: 4px 4px 7px black;
+    margin: 0rem 0rem 2em 3rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .intro h3{
+    max-width: 200px;
+  }
+
+  .more-info h3{
+    max-width: 250px;
+   }
+
+  .more-info h3:nth-of-type(2){
+    max-width: 500px;
+  }
+
+  .sd-course h3{
+    max-width: 500px;
+  }
+
+  .sd-course h3:nth-of-type(2){
+    max-width: 200px;
+  }
+
+  .main p{
+  font-size: 1.5em;
+  font-weight: 500;
+  max-width: 600px;
+  padding: 1rem;
+  box-shadow: 4px 4px 7px black;
+  margin: 0rem 0rem 3em 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .flex-container{
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  .upper{
+      display: flex;
+      width: 100%;
+      margin-right: 2.2em;
+  }
+
+  .upper article{
+      width:46%;
+      
+  }
+  
+  .lower{
+    display: flex;
+    width: 100%;
+    margin-right: 2.2em;
+  }
+
+  .lower article{
+    width:46%;
+  }
+  
+  article {
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .flex-container h3 {
+    margin-bottom: 0.5rem;
+    margin-left: 1em;
+    font-size: 1em;
+  }
+
+  article p {
+    margin-bottom: 0.8rem;
+    font-size: larger;
+    font-weight: bold;
+  }
+  
+article h4 {
+    font-size: 1rem;
+    margin-left: 1.1em;  
+  }
+
+  .first-blog img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 610px;
+  }
+
+  .password-management img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 610px;
+  }
+
+  .second-list li{
+    font-size: 1.2em;
+    list-style: none;
+    margin-left: 1em;
+  }
+
+  .strategy-guide img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 610px;
+  }
+
+  table{
+    width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  
+  .facebook img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 610px;
+  }
+  
+}
+
+@media only screen and (min-width:960px){
+    
+    nav .inner-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+  
+      .right-nav{
+        display: inline;
+      }
+  
+      li a{
+        text-decoration: none;
+        padding: 1em;
+        color: #000;
+      }
+  
+     header ul li{
+        font-weight: 700;
+        font-size: 0.9em;
+        display: inline;
+      }
+
+      .home p{
+        max-width: 900px;
+        padding: 1rem;
+        box-shadow: 4px 4px 7px black;
+        margin: 0rem 0rem 2em 3rem;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    
+      .intro h3{
+        max-width: 200px;
+      }
+
+      .more-info h3{
+        max-width: 250px;
+      }
+
+       .more-info h3:nth-of-type(2){
+         max-width: 500px;
+       }
+
+       .sd-course h3{
+         max-width: 500px;/*490*/
+       }
+
+        .sd-course h3:nth-of-type(2){
+         max-width: 200px;
+       }
+       
+        .main p{
+          font-size: 1.5em;
+          max-width: 880px;
+          padding: 1rem;
+          box-shadow: 4px 4px 7px black;
+          margin: 0rem 0rem 3em 3rem;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .first-blog img{
+          width: 650px;
+        }
+
+        .password-management img{
+          width: 650px;
+        }
+
+        .second-list{
+          font-size: 0.9em;
+          list-style: none;
+          margin-left: 1.9em;
+        }
+
+        .strategy-guide img{
+          width: 650px;
+        }
+
+        table{
+          width: 650px;
+        }
+
+        
+        .facebook img{
+          width: 650px;
+        }
+
+}
+@media only screen and (min-width:1280px){
+    nav .inner-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .right-nav{
+        display: inline;
+    }
+
+    li a{
+        text-decoration: none;
+        padding: 1em;
+        color: #000;
+    }
+
+   header ul li{
+        list-style: none;
+        font-size: 1em;
+        font-weight: 700;
+        display: inline;
+    }
+
+    .home p{
+        max-width: 1100px;
+        padding: 1rem;
+        box-shadow: 4px 4px 7px black;
+        margin: 0rem 0rem 2em 3rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .intro h3{
+        max-width: 200px;
+    }
+
+    .more-info h3{
+        max-width: 250px;
+    }
+
+    .more-info h3:nth-of-type(2){
+        max-width: 500px;
+    }
+
+    .sd-course h3{
+        max-width: 500px;/*490*/
+    }
+
+    .sd-course h3:nth-of-type(2){
+        max-width: 200px;
+    }
+
+    .main p{
+        font-size: 1.5em;
+        font-weight: 400;
+        max-width: 1100px;
+        padding: 1rem;
+        box-shadow: 4px 4px 7px black;
+        margin: 0rem 0rem 3em 3rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .first-blog img{
+      width: 700px;
+    }
+
+    .password-management img{
+      width: 700px;
+    }
+
+    .second-list li{
+      font-size: 1.2em;
+      list-style: none;
+      margin-left: 1em;
+    }
+
+    .strategy-guide img{
+      width: 700px;
+    }
+    
+    table{
+      width: 650px;
+    }
+  
+    
+    .facebook img{
+      width: 700px;
+    }
+}
